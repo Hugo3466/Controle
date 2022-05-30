@@ -1,0 +1,68 @@
+#carte
+{ width:auto;
+    height: 48PX;
+    margin:auto;
+    background-color:darkcyan;
+    color:white;
+}
+
+p{
+    text-align: center;
+    font-size:30px;
+    color:indigo;
+    width: 100%;     /* == half the body's width */
+    height: 100px;  /* Note: a percentage would be 0 */
+    background:crimson;
+
+
+
+}
+body {
+    background:crimson;
+  }
+  
+.moi {
+
+    border-radius: 5px;
+    border:5px orange solid; 
+  }
+  
+ h1{
+font-size: 30px;
+
+ }
+
+li{
+font-size:20px;
+
+}
+
+a{
+    margin-left: 46.5%;
+   
+    border-radius: 5px;
+    border:2px green solid; 
+  
+}
+.g{
+width: auto;
+height: 100px;
+margin-left: 45%;
+}
+
+#footer{
+    background : black;
+    width:96%;
+    justify-content: center;/*centrer horizentalement*/
+    display:flex;
+    padding:30px;
+    margin-left:auto;/* pour centrer notre body ou autre bloc- marge "auto" et indiquer un width*/
+    margin-right: auto;/* pour centrer notre body ou autre bloc-marge "auto" et indiquer un width*/
+    /*margin:0px auto;
+    position:relative;*/
+
+
+
+    font-size:20px ;
+    color:darkgoldenrod;
+}
